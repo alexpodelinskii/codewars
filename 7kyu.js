@@ -26,3 +26,4 @@ function withoutLast(arr) {
     const arr1 = [];
     return arr1;
 }
+klflkglkgflk
