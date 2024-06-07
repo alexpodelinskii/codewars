@@ -22,7 +22,6 @@ In this kata the function returns an array/list of numbers without its last elem
 Good luck!
 */
 function withoutLast(arr) {
-    let lenth = arr.lenth
-    const arr1 = [];
-    return arr1;
+    const arr1 = [...arr];
+    return arr1.slice(0, -1);
 }
